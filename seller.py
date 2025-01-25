@@ -12,7 +12,7 @@ logger = logging.getLogger(__file__)
 
 
 def get_product_list(last_id, client_id, seller_token):
-    """Получить список товаров магазина озон
+    """Получить список товаров магазина Ozon
 
     Args:
         last_id(str): Идентификатор последнего полученного товара
@@ -53,7 +53,7 @@ def get_product_list(last_id, client_id, seller_token):
 
 
 def get_offer_ids(client_id, seller_token):
-    """Получить артикулы товаров магазина озон
+    """Получить артикулы товаров магазина Ozon
     
     Args:
         client_id (str): Идентификатор клиента
