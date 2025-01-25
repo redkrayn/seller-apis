@@ -27,9 +27,6 @@ def get_product_list(last_id, client_id, seller_token):
         ValueError: Если обязательные параметры не переданы или имеют неверный тип
         
     Examples:
-        >>> client_id = "your_client_id"
-        >>> seller_token = "your_seller_token"
-        >>> last_id = "0"
         >>> get_product_list(last_id, client_id, seller_token)
         {"items": [...], "last_id": "123456", ...}
         
@@ -63,8 +60,6 @@ def get_offer_ids(client_id, seller_token):
         list: Возвращает список артикулов товаров
 
     Examples:
-        >>> client_id = "your_client_id"
-        >>> seller_token = "your_seller_token"
         >>> get_offer_ids(client_id, seller_token)
         ["12345", "12346", ...]
         
